@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMB AI Roundtable at Flour + Water Dough Room</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: #f5f0eb;
+      color: #1a1a1a;
+      min-height: 100vh;
+    }
+
+    /* Hero */
+    .hero {
+      background: #1a1a1a;
+      color: #f5f0eb;
+      padding: 60px 24px 48px;
+      text-align: center;
+    }
+
+    .hero .eyebrow {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #c9a96e;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      font-size: clamp(26px, 5vw, 42px);
+      font-weight: normal;
+      line-height: 1.2;
+      max-width: 680px;
+      margin: 0 auto 20px;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: #c9a96e;
+    }
+
+    .hero .meta {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 13px;
+      color: #b0a898;
+      letter-spacing: 0.06em;
+    }
+
+    .hero .meta span {
+      display: inline-block;
+      margin: 0 12px;
+    }
+
+    /* Content */
+    .content {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .description {
+      font-size: 17px;
+      line-height: 1.75;
+      color: #3a3530;
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #ddd4c8;
+    }
+
+    /* Venue card */
+    .venue {
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      background: #fff;
+      border: 1px solid #ddd4c8;
+      border-radius: 6px;
+      padding: 22px;
+      margin-bottom: 40px;
+    }
+
+    .venue-icon {
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      background: #1a1a1a;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #c9a96e;
+      font-size: 18px;
+    }
+
+    .venue-details h3 {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 4px;
+    }
+
+    .venue-details p {
+      font-size: 16px;
+      color: #1a1a1a;
+      line-height: 1.5;
+    }
+
+    .venue-details a {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 12px;
+      color: #c9a96e;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+
+    .venue-details a:hover { text-decoration: underline; }
+
+    /* Google Form embed */
+    .form-heading {
+      font-size: 22px;
+      font-weight: normal;
+      margin-bottom: 20px;
+      color: #1a1a1a;
+    }
+
+    .google-form-wrap {
+      border: 1px solid #ddd4c8;
+      border-radius: 6px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .google-form-wrap iframe {
+      display: block;
+      width: 100%;
+      border: none;
+    }
+
+    @media (max-width: 480px) {
+      .google-form-wrap iframe { height: 700px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="eyebrow">You're Invited</div>
+    <h1>SMB AI Roundtable at<br><em>Flour + Water Dough Room</em></h1>
+    <div class="meta">
+      <span>&#9679; September 16th &middot; 7:30 PM</span>
+      <span>&#9679; San Francisco, CA</span>
+    </div>
+  </div>
+
+  <div class="content">
+
+    <p class="description">
+      A roundtable discussion on all things AI, hosted by Global SMB AI and Data AVP <strong>Andrew Clemens</strong>.
+      Come prepared to talk through your AI GTM successes, struggles, and everything in between.
+    </p>
+
+    <div class="venue">
+      <div class="venue-icon">&#x2663;</div>
+      <div class="venue-details">
+        <h3>Venue</h3>
+        <p>Flour + Water — <strong>The Dough Room</strong><br>2401 Harrison St, San Francisco, CA 94110</p>
+        <a href="https://www.flourandwater.com/private-dining-events/" target="_blank" rel="noopener">
+          View private dining info &rarr;
+        </a>
+      </div>
+    </div>
+
+    <!-- Google Form embed -->
+    <h2 class="form-heading">Reserve Your Seat</h2>
+    <div class="google-form-wrap">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfajSN7ae0FfNJBg2zeZUBxjlaZqOxSc-Yb5yRRng0l66hN2g/viewform?embedded=true"
+        height="885"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="SMB AI Roundtable RSVP">
+        Loading…
+      </iframe>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
